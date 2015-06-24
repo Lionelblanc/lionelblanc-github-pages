@@ -19,34 +19,86 @@
 		<link rel="author" href="https://plus.google.com/[Google+_Profile]/posts"/>
 		<link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]"/>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates|Open+Sans:400,300,700|Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
-		<img src="images/lionel.png" alt="lionel">
-		<h1>Lionel Blanc</h1>
-		<h2>Designer de site web responsive</h2>
-		<p>Passionné des nouvelles technologies et du design, je me suis formé auprès du Bootcamp le Wagon.org afin de proposer mes prestations pour créer vos site web design, responsive et bien référencé.</p>
-		<a href="http://www.lewagon.org"> Plus d'infos sur le Wagon</a>
-
+	<div id="sidebar">
 		<ul>
-			<li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i> Facebook</a></li>
-			<li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i> Twitter</a></li>
-			<li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+			<li><a href="#info"><i class="fa fa-info-circle"></i></a></li>
+			<li><a href="#realisations"><i class="fa fa-sitemap"></i></a></li>
+			<li><a href="#footer"><i class="fa fa-envelope-o"></i></a></li>
 		</ul>
+	</div>
+	<div id="page-content">
+			<div class="container">
 
-		<h2>Mes réalisations</h2>
-		<table>
-			<tbody>
-				<tr>
-					<td>
-						<img src="images/allindays.jpg" width="300" height="200" alt="allindays">
-					</td>
-					<td>
-						<p>Site de location courte durée pour propriétaires parisien.</p>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+				<div id="left-container">
+					<div class="card text-center" id="info">
+					<img src="images/lionel.png" alt="lionel" class="img-circle">
+					<h1>Lionel Blanc</h1>
+					<h2>Designer de site web responsive</h2>
+					<p>Passionné des nouvelles technologies et du design, je me suis formé auprès du Bootcamp le Wagon.org afin de proposer mes prestations pour créer vos site web design, responsive et bien référencé.</p>
+					<a href="http://www.lewagon.org" class="btn-blue"> Plus d'infos sur le Wagon</a>
+					</div>
+					<div class="card text-center">
+						<ul class= "list-inline">
+							<li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i> Facebook</a></li>
+							<li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i> Twitter</a></li>
+							<li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+						</ul>
+					</div>
+				</div>
+
+	  			<div id="right-container">
+		  				<div class="card text-center" id="realisations">
+						<h2>Mes réalisations</h2>
+						<table>
+							<tbody>
+								<tr>
+									<td>
+										<img src="images/allindays.jpg" width="300" height="200" alt="allindays">
+									</td>
+									<td>
+										<p>Site de location courte durée pour propriétaires parisien.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="images/madloc.jpg" width="300" height="200" alt="madloc">
+									</td>
+									<td>
+										<p>Site de location de matériel de musique sur Paris.</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<img src="images/ridr.jpg" width="300" height="200" alt="ridr">
+									</td>
+									<td>
+										<p>Projet de site de location de moto vintage.</p>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+	  			</div>
+
+	  			<div class="clear">
+	  			</div>
+
+		  			<div class="card text-center" id="footer">
+						<h2>Au sujet de cette page</h2>
+						<ul class= "list-inline bottom-right">
+								<li><a href="http://www.facebook.com"><i class="fa fa-facebook"></i> Facebook</a></li>
+								<li><a href="http://www.twitter.com"><i class="fa fa-twitter"></i> Twitter</a></li>
+								<li><a href="http://www.linkedin.com"><i class="fa fa-linkedin"></i> Linkedin</a></li>
+							</ul>
+					</div>	
+	  			</div>
+			</div>
+		</div>
 	</body>
 
 
